@@ -26,6 +26,9 @@ There is 3 usable targets:
 
 ## What's left to do
 
+### Better include header
+Right now all the used files need to be included. An Umbrella header would be handy
+
 ### Unit test. 
 There is more coverage to do in the unit test 
 
