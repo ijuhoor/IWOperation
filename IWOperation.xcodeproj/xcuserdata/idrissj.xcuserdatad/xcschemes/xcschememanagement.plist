@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>IWOperation Static Lib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>IWOperation.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>IWOperationTest.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>IWOperations Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6F22203A1B74D1CC002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F2220451B74D1CC002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F22208D1B74D8E9002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F2220971B74D8E9002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F2221051B74DDAC002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F22210F1B74DDAC002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F2221331B74E854002A6C25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6F7D36021B86743300621C68</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6FDD45641B82265100086D25</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

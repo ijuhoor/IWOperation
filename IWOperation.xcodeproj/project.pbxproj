@@ -6,10 +6,79 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		6FDD45641B82265100086D25 /* IWOperation Static Lib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6FDD45671B82265100086D25 /* Build configuration list for PBXAggregateTarget "IWOperation Static Lib" */;
+			buildPhases = (
+				6FDD45771B822BF100086D25 /* Build Libs */,
+				6FDD456A1B82265E00086D25 /* Copy Libs and Headers */,
+				6FDD456B1B8226E200086D25 /* Copy Headers into framework */,
+			);
+			dependencies = (
+			);
+			name = "IWOperation Static Lib";
+			productName = "IWOperation Static Lib";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		6F22203F1B74D1CC002A6C25 /* IWOperation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6F22203E1B74D1CC002A6C25 /* IWOperation.h */; };
-		6F2220411B74D1CC002A6C25 /* IWOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220401B74D1CC002A6C25 /* IWOperation.m */; };
 		6F2220471B74D1CC002A6C25 /* libIWOperation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F22203B1B74D1CC002A6C25 /* libIWOperation.a */; };
+		6F22205B1B74D6A5002A6C25 /* IWOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220551B74D6A5002A6C25 /* IWOperationTests.m */; };
+		6F22205C1B74D6A5002A6C25 /* IWOperationQueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220561B74D6A5002A6C25 /* IWOperationQueueTests.m */; };
+		6F22205D1B74D6A5002A6C25 /* IWTestCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220571B74D6A5002A6C25 /* IWTestCondition.m */; };
+		6F22205E1B74D6A5002A6C25 /* IWTestObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220591B74D6A5002A6C25 /* IWTestObserver.m */; };
+		6F2220621B74D6BC002A6C25 /* IWOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220611B74D6BC002A6C25 /* IWOperationQueue.m */; };
+		6F2220631B74D6BC002A6C25 /* IWOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220611B74D6BC002A6C25 /* IWOperationQueue.m */; };
+		6F2220691B74D6C5002A6C25 /* IWConditionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220661B74D6C5002A6C25 /* IWConditionEvaluator.m */; };
+		6F22206A1B74D6C5002A6C25 /* IWConditionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220661B74D6C5002A6C25 /* IWConditionEvaluator.m */; };
+		6F22206B1B74D6C5002A6C25 /* IWConditionEvalutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220681B74D6C5002A6C25 /* IWConditionEvalutation.m */; };
+		6F22206C1B74D6C5002A6C25 /* IWConditionEvalutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220681B74D6C5002A6C25 /* IWConditionEvalutation.m */; };
+		6F2220781B74D6E8002A6C25 /* IWBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220741B74D6E8002A6C25 /* IWBlockOperation.m */; };
+		6F2220791B74D6E8002A6C25 /* IWBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220741B74D6E8002A6C25 /* IWBlockOperation.m */; };
+		6F22207A1B74D6E8002A6C25 /* IWGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220751B74D6E8002A6C25 /* IWGroupOperation.m */; };
+		6F22207B1B74D6E8002A6C25 /* IWGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220751B74D6E8002A6C25 /* IWGroupOperation.m */; };
+		6F22207C1B74D6E8002A6C25 /* IWOperationBlockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220761B74D6E8002A6C25 /* IWOperationBlockObserver.m */; };
+		6F22207D1B74D6E8002A6C25 /* IWOperationBlockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220761B74D6E8002A6C25 /* IWOperationBlockObserver.m */; };
+		6F22207E1B74D6E8002A6C25 /* IWMutalExclusionCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220771B74D6E8002A6C25 /* IWMutalExclusionCondition.m */; };
+		6F22207F1B74D6E8002A6C25 /* IWMutalExclusionCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220771B74D6E8002A6C25 /* IWMutalExclusionCondition.m */; };
+		6F2220821B74D703002A6C25 /* IWOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220811B74D703002A6C25 /* IWOperation.m */; };
+		6F2220831B74D703002A6C25 /* IWOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220811B74D703002A6C25 /* IWOperation.m */; };
+		6F2220871B74D7F5002A6C25 /* IWExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220861B74D7F5002A6C25 /* IWExclusivityController.m */; };
+		6F2220881B74D7F5002A6C25 /* IWExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220861B74D7F5002A6C25 /* IWExclusivityController.m */; };
+		6F2220A71B74D91C002A6C25 /* IWExclusivityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220861B74D7F5002A6C25 /* IWExclusivityController.m */; };
+		6F2220A81B74D92B002A6C25 /* IWOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220811B74D703002A6C25 /* IWOperation.m */; };
+		6F2220A91B74D92B002A6C25 /* IWOperationBlockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220761B74D6E8002A6C25 /* IWOperationBlockObserver.m */; };
+		6F2220AA1B74D92B002A6C25 /* IWBlockOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220741B74D6E8002A6C25 /* IWBlockOperation.m */; };
+		6F2220AB1B74D92B002A6C25 /* IWGroupOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220751B74D6E8002A6C25 /* IWGroupOperation.m */; };
+		6F2220AC1B74D92B002A6C25 /* IWMutalExclusionCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220771B74D6E8002A6C25 /* IWMutalExclusionCondition.m */; };
+		6F2220AD1B74D92B002A6C25 /* IWConditionEvaluator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220661B74D6C5002A6C25 /* IWConditionEvaluator.m */; };
+		6F2220AE1B74D92B002A6C25 /* IWConditionEvalutation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220681B74D6C5002A6C25 /* IWConditionEvalutation.m */; };
+		6F2220AF1B74D92B002A6C25 /* IWOperationQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2220611B74D6BC002A6C25 /* IWOperationQueue.m */; };
+		6F2220B01B74D940002A6C25 /* IWExclusivityController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220851B74D7F5002A6C25 /* IWExclusivityController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B11B74D942002A6C25 /* IWOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220801B74D703002A6C25 /* IWOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B21B74D945002A6C25 /* IWOperationObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220711B74D6E8002A6C25 /* IWOperationObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B31B74D948002A6C25 /* IWOperationBlockObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F22206F1B74D6E8002A6C25 /* IWOperationBlockObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B41B74D94B002A6C25 /* IWConditionOperationProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220721B74D6E8002A6C25 /* IWConditionOperationProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B51B74D94E002A6C25 /* IWBlockOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220701B74D6E8002A6C25 /* IWBlockOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B61B74D95A002A6C25 /* IWGroupOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F22206E1B74D6E8002A6C25 /* IWGroupOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B71B74D968002A6C25 /* IWMutalExclusionCondition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220731B74D6E8002A6C25 /* IWMutalExclusionCondition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220B81B74D96B002A6C25 /* IWConditionEvaluator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220651B74D6C5002A6C25 /* IWConditionEvaluator.h */; };
+		6F2220B91B74D96D002A6C25 /* IWConditionEvalutation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220671B74D6C5002A6C25 /* IWConditionEvalutation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2220BA1B74D970002A6C25 /* IWOperationQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F2220601B74D6BC002A6C25 /* IWOperationQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F22213A1B74E9A3002A6C25 /* IWOperations.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F22212B1B74E007002A6C25 /* IWOperations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F7D35FE1B86713200621C68 /* IWGroupOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7D35FD1B86713200621C68 /* IWGroupOperationTests.m */; };
+		6FDD456C1B82270B00086D25 /* IWExclusivityController.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220851B74D7F5002A6C25 /* IWExclusivityController.h */; };
+		6FDD456D1B82270B00086D25 /* IWOperation.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220801B74D703002A6C25 /* IWOperation.h */; };
+		6FDD456E1B82270B00086D25 /* IWOperationObserver.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220711B74D6E8002A6C25 /* IWOperationObserver.h */; };
+		6FDD456F1B82270B00086D25 /* IWOperationBlockObserver.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F22206F1B74D6E8002A6C25 /* IWOperationBlockObserver.h */; };
+		6FDD45701B82270B00086D25 /* IWConditionOperationProtocol.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220721B74D6E8002A6C25 /* IWConditionOperationProtocol.h */; };
+		6FDD45711B82270B00086D25 /* IWBlockOperation.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220701B74D6E8002A6C25 /* IWBlockOperation.h */; };
+		6FDD45721B82270B00086D25 /* IWGroupOperation.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F22206E1B74D6E8002A6C25 /* IWGroupOperation.h */; };
+		6FDD45731B82270B00086D25 /* IWMutalExclusionCondition.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220731B74D6E8002A6C25 /* IWMutalExclusionCondition.h */; };
+		6FDD45741B82270B00086D25 /* IWConditionEvaluator.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220651B74D6C5002A6C25 /* IWConditionEvaluator.h */; };
+		6FDD45751B82270B00086D25 /* IWConditionEvalutation.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220671B74D6C5002A6C25 /* IWConditionEvalutation.h */; };
+		6FDD45761B82270B00086D25 /* IWOperationQueue.h in Copy Headers into framework */ = {isa = PBXBuildFile; fileRef = 6F2220601B74D6BC002A6C25 /* IWOperationQueue.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,18 +98,66 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				6F22203F1B74D1CC002A6C25 /* IWOperation.h in CopyFiles */,
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FDD456B1B8226E200086D25 /* Copy Headers into framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = IWOperation.framework/Versions/A/Headers;
+			dstSubfolderSpec = 16;
+			files = (
+				6FDD456C1B82270B00086D25 /* IWExclusivityController.h in Copy Headers into framework */,
+				6FDD456D1B82270B00086D25 /* IWOperation.h in Copy Headers into framework */,
+				6FDD456E1B82270B00086D25 /* IWOperationObserver.h in Copy Headers into framework */,
+				6FDD456F1B82270B00086D25 /* IWOperationBlockObserver.h in Copy Headers into framework */,
+				6FDD45701B82270B00086D25 /* IWConditionOperationProtocol.h in Copy Headers into framework */,
+				6FDD45711B82270B00086D25 /* IWBlockOperation.h in Copy Headers into framework */,
+				6FDD45721B82270B00086D25 /* IWGroupOperation.h in Copy Headers into framework */,
+				6FDD45731B82270B00086D25 /* IWMutalExclusionCondition.h in Copy Headers into framework */,
+				6FDD45741B82270B00086D25 /* IWConditionEvaluator.h in Copy Headers into framework */,
+				6FDD45751B82270B00086D25 /* IWConditionEvalutation.h in Copy Headers into framework */,
+				6FDD45761B82270B00086D25 /* IWOperationQueue.h in Copy Headers into framework */,
+			);
+			name = "Copy Headers into framework";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6F22203B1B74D1CC002A6C25 /* libIWOperation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIWOperation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F22203E1B74D1CC002A6C25 /* IWOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IWOperation.h; sourceTree = "<group>"; };
-		6F2220401B74D1CC002A6C25 /* IWOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IWOperation.m; sourceTree = "<group>"; };
 		6F2220461B74D1CC002A6C25 /* IWOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IWOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F22204C1B74D1CC002A6C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F2220551B74D6A5002A6C25 /* IWOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWOperationTests.m; sourceTree = "<group>"; };
+		6F2220561B74D6A5002A6C25 /* IWOperationQueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWOperationQueueTests.m; sourceTree = "<group>"; };
+		6F2220571B74D6A5002A6C25 /* IWTestCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTestCondition.m; sourceTree = "<group>"; };
+		6F2220581B74D6A5002A6C25 /* IWTestObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTestObserver.h; sourceTree = "<group>"; };
+		6F2220591B74D6A5002A6C25 /* IWTestObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWTestObserver.m; sourceTree = "<group>"; };
+		6F22205A1B74D6A5002A6C25 /* IWTestCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWTestCondition.h; sourceTree = "<group>"; };
+		6F2220601B74D6BC002A6C25 /* IWOperationQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWOperationQueue.h; sourceTree = "<group>"; };
+		6F2220611B74D6BC002A6C25 /* IWOperationQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWOperationQueue.m; sourceTree = "<group>"; };
+		6F2220651B74D6C5002A6C25 /* IWConditionEvaluator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWConditionEvaluator.h; sourceTree = "<group>"; };
+		6F2220661B74D6C5002A6C25 /* IWConditionEvaluator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWConditionEvaluator.m; sourceTree = "<group>"; };
+		6F2220671B74D6C5002A6C25 /* IWConditionEvalutation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWConditionEvalutation.h; sourceTree = "<group>"; };
+		6F2220681B74D6C5002A6C25 /* IWConditionEvalutation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWConditionEvalutation.m; sourceTree = "<group>"; };
+		6F22206E1B74D6E8002A6C25 /* IWGroupOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWGroupOperation.h; path = Operations/IWGroupOperation.h; sourceTree = "<group>"; };
+		6F22206F1B74D6E8002A6C25 /* IWOperationBlockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWOperationBlockObserver.h; path = Operations/IWOperationBlockObserver.h; sourceTree = "<group>"; };
+		6F2220701B74D6E8002A6C25 /* IWBlockOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWBlockOperation.h; path = Operations/IWBlockOperation.h; sourceTree = "<group>"; };
+		6F2220711B74D6E8002A6C25 /* IWOperationObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWOperationObserver.h; path = Operations/IWOperationObserver.h; sourceTree = "<group>"; };
+		6F2220721B74D6E8002A6C25 /* IWConditionOperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWConditionOperationProtocol.h; path = Operations/IWConditionOperationProtocol.h; sourceTree = "<group>"; };
+		6F2220731B74D6E8002A6C25 /* IWMutalExclusionCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWMutalExclusionCondition.h; path = Operations/IWMutalExclusionCondition.h; sourceTree = "<group>"; };
+		6F2220741B74D6E8002A6C25 /* IWBlockOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWBlockOperation.m; path = Operations/IWBlockOperation.m; sourceTree = "<group>"; };
+		6F2220751B74D6E8002A6C25 /* IWGroupOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWGroupOperation.m; path = Operations/IWGroupOperation.m; sourceTree = "<group>"; };
+		6F2220761B74D6E8002A6C25 /* IWOperationBlockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWOperationBlockObserver.m; path = Operations/IWOperationBlockObserver.m; sourceTree = "<group>"; };
+		6F2220771B74D6E8002A6C25 /* IWMutalExclusionCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWMutalExclusionCondition.m; path = Operations/IWMutalExclusionCondition.m; sourceTree = "<group>"; };
+		6F2220801B74D703002A6C25 /* IWOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWOperation.h; path = Operations/IWOperation.h; sourceTree = "<group>"; };
+		6F2220811B74D703002A6C25 /* IWOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IWOperation.m; path = Operations/IWOperation.m; sourceTree = "<group>"; };
+		6F2220851B74D7F5002A6C25 /* IWExclusivityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWExclusivityController.h; sourceTree = "<group>"; };
+		6F2220861B74D7F5002A6C25 /* IWExclusivityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWExclusivityController.m; sourceTree = "<group>"; };
+		6F22208E1B74D8E9002A6C25 /* IWOperations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IWOperations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F22212A1B74E007002A6C25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "IWOperation Framework/Info.plist"; sourceTree = "<group>"; };
+		6F22212B1B74E007002A6C25 /* IWOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IWOperations.h; path = "IWOperation Framework/IWOperations.h"; sourceTree = "<group>"; };
+		6F7D35FD1B86713200621C68 /* IWGroupOperationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWGroupOperationTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +176,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F22208A1B74D8E9002A6C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		6F2220321B74D1CC002A6C25 = {
 			isa = PBXGroup;
 			children = (
+				6F2221211B74DF8F002A6C25 /* IWOperation Framework */,
 				6F22203D1B74D1CC002A6C25 /* IWOperation */,
 				6F22204A1B74D1CC002A6C25 /* IWOperationTests */,
 				6F22203C1B74D1CC002A6C25 /* Products */,
@@ -76,6 +201,7 @@
 			children = (
 				6F22203B1B74D1CC002A6C25 /* libIWOperation.a */,
 				6F2220461B74D1CC002A6C25 /* IWOperationTests.xctest */,
+				6F22208E1B74D8E9002A6C25 /* IWOperations.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,8 +209,10 @@
 		6F22203D1B74D1CC002A6C25 /* IWOperation */ = {
 			isa = PBXGroup;
 			children = (
-				6F22203E1B74D1CC002A6C25 /* IWOperation.h */,
-				6F2220401B74D1CC002A6C25 /* IWOperation.m */,
+				6F2220841B74D7F5002A6C25 /* Exclusivity */,
+				6F22206D1B74D6CA002A6C25 /* Operation */,
+				6F2220641B74D6C5002A6C25 /* Utils */,
+				6F22205F1B74D6BC002A6C25 /* OperationQueue */,
 			);
 			path = IWOperation;
 			sourceTree = "<group>";
@@ -92,6 +220,10 @@
 		6F22204A1B74D1CC002A6C25 /* IWOperationTests */ = {
 			isa = PBXGroup;
 			children = (
+				6F7D35FC1B86708800621C68 /* Helpers */,
+				6F2220551B74D6A5002A6C25 /* IWOperationTests.m */,
+				6F2220561B74D6A5002A6C25 /* IWOperationQueueTests.m */,
+				6F7D35FD1B86713200621C68 /* IWGroupOperationTests.m */,
 				6F22204B1B74D1CC002A6C25 /* Supporting Files */,
 			);
 			path = IWOperationTests;
@@ -105,7 +237,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6F22205F1B74D6BC002A6C25 /* OperationQueue */ = {
+			isa = PBXGroup;
+			children = (
+				6F2220601B74D6BC002A6C25 /* IWOperationQueue.h */,
+				6F2220611B74D6BC002A6C25 /* IWOperationQueue.m */,
+			);
+			path = OperationQueue;
+			sourceTree = "<group>";
+		};
+		6F2220641B74D6C5002A6C25 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6F2220651B74D6C5002A6C25 /* IWConditionEvaluator.h */,
+				6F2220661B74D6C5002A6C25 /* IWConditionEvaluator.m */,
+				6F2220671B74D6C5002A6C25 /* IWConditionEvalutation.h */,
+				6F2220681B74D6C5002A6C25 /* IWConditionEvalutation.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6F22206D1B74D6CA002A6C25 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+				6F2220801B74D703002A6C25 /* IWOperation.h */,
+				6F2220811B74D703002A6C25 /* IWOperation.m */,
+				6F2220711B74D6E8002A6C25 /* IWOperationObserver.h */,
+				6F22206F1B74D6E8002A6C25 /* IWOperationBlockObserver.h */,
+				6F2220761B74D6E8002A6C25 /* IWOperationBlockObserver.m */,
+				6F2220721B74D6E8002A6C25 /* IWConditionOperationProtocol.h */,
+				6F2220701B74D6E8002A6C25 /* IWBlockOperation.h */,
+				6F2220741B74D6E8002A6C25 /* IWBlockOperation.m */,
+				6F22206E1B74D6E8002A6C25 /* IWGroupOperation.h */,
+				6F2220751B74D6E8002A6C25 /* IWGroupOperation.m */,
+				6F2220731B74D6E8002A6C25 /* IWMutalExclusionCondition.h */,
+				6F2220771B74D6E8002A6C25 /* IWMutalExclusionCondition.m */,
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		6F2220841B74D7F5002A6C25 /* Exclusivity */ = {
+			isa = PBXGroup;
+			children = (
+				6F2220851B74D7F5002A6C25 /* IWExclusivityController.h */,
+				6F2220861B74D7F5002A6C25 /* IWExclusivityController.m */,
+			);
+			path = Exclusivity;
+			sourceTree = "<group>";
+		};
+		6F2221211B74DF8F002A6C25 /* IWOperation Framework */ = {
+			isa = PBXGroup;
+			children = (
+				6F22212A1B74E007002A6C25 /* Info.plist */,
+				6F22212B1B74E007002A6C25 /* IWOperations.h */,
+			);
+			name = "IWOperation Framework";
+			sourceTree = "<group>";
+		};
+		6F7D35FC1B86708800621C68 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6F2220571B74D6A5002A6C25 /* IWTestCondition.m */,
+				6F2220581B74D6A5002A6C25 /* IWTestObserver.h */,
+				6F2220591B74D6A5002A6C25 /* IWTestObserver.m */,
+				6F22205A1B74D6A5002A6C25 /* IWTestCondition.h */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F22208B1B74D8E9002A6C25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F22213A1B74E9A3002A6C25 /* IWOperations.h in Headers */,
+				6F2220B01B74D940002A6C25 /* IWExclusivityController.h in Headers */,
+				6F2220B11B74D942002A6C25 /* IWOperation.h in Headers */,
+				6F2220B21B74D945002A6C25 /* IWOperationObserver.h in Headers */,
+				6F2220B31B74D948002A6C25 /* IWOperationBlockObserver.h in Headers */,
+				6F2220B41B74D94B002A6C25 /* IWConditionOperationProtocol.h in Headers */,
+				6F2220B51B74D94E002A6C25 /* IWBlockOperation.h in Headers */,
+				6F2220B61B74D95A002A6C25 /* IWGroupOperation.h in Headers */,
+				6F2220B71B74D968002A6C25 /* IWMutalExclusionCondition.h in Headers */,
+				6F2220B81B74D96B002A6C25 /* IWConditionEvaluator.h in Headers */,
+				6F2220B91B74D96D002A6C25 /* IWConditionEvalutation.h in Headers */,
+				6F2220BA1B74D970002A6C25 /* IWOperationQueue.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6F22203A1B74D1CC002A6C25 /* IWOperation */ = {
@@ -143,6 +365,24 @@
 			productReference = 6F2220461B74D1CC002A6C25 /* IWOperationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6F22208D1B74D8E9002A6C25 /* IWOperation Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F2220A11B74D8E9002A6C25 /* Build configuration list for PBXNativeTarget "IWOperation Framework" */;
+			buildPhases = (
+				6F2220891B74D8E9002A6C25 /* Sources */,
+				6F22208A1B74D8E9002A6C25 /* Frameworks */,
+				6F22208B1B74D8E9002A6C25 /* Headers */,
+				6F22208C1B74D8E9002A6C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IWOperation Framework";
+			productName = "IWOperations Framwork";
+			productReference = 6F22208E1B74D8E9002A6C25 /* IWOperations.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -157,6 +397,12 @@
 					};
 					6F2220451B74D1CC002A6C25 = {
 						CreatedOnToolsVersion = 6.4;
+					};
+					6F22208D1B74D8E9002A6C25 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					6FDD45641B82265100086D25 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -174,6 +420,8 @@
 			targets = (
 				6F22203A1B74D1CC002A6C25 /* IWOperation */,
 				6F2220451B74D1CC002A6C25 /* IWOperationTests */,
+				6F22208D1B74D8E9002A6C25 /* IWOperation Framework */,
+				6FDD45641B82265100086D25 /* IWOperation Static Lib */,
 			);
 		};
 /* End PBXProject section */
@@ -186,14 +434,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6F22208C1B74D8E9002A6C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FDD456A1B82265E00086D25 /* Copy Libs and Headers */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Libs and Headers";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n# Create a Framework for the Journey Builder SDK (aka ExactTarget Push SDK)\n# This needs to be in the base folder of the JB4A SDK.\n#\n# more info: ijuhoor@gmail.com\n#\n\nset -e\n\nFRAMEWORK_NAME=IWOperation\n\nexport FRAMEWORK_LOC=${BUILT_PRODUCTS_DIR}/$FRAMEWORK_NAME.framework\n\nHEADER_PATH=${BUILT_PRODUCTS_DIR}/headers\n\nLIB_PATH=${TARGET_BUILD_DIR}/../IWOperation\n\nLIB_NAME=libIWOperation.a\n\n#create the path to the lib and headers\nmkdir -p \"${FRAMEWORK_LOC}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOC}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOC}/Headers\"\n/bin/ln -sfh \"Versions/Current/${FRAMEWORK_NAME}\" \\\n\"${FRAMEWORK_LOC}/${FRAMEWORK_NAME}\"\n\n#copy the fat-lib in the framework\n/bin/cp -a \"$LIB_PATH/$LIB_NAME\" \\\n\"${FRAMEWORK_LOC}/Versions/A/$FRAMEWORK_NAME\"\n";
+		};
+		6FDD45771B822BF100086D25 /* Build Libs */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Libs";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\nTARGET=IWOperation\nFOLDER=${TARGET_BUILD_DIR}/../${TARGET}\nLIBNAME=lib${TARGET}\n\nxcodebuild -project ${TARGET}.xcodeproj -scheme ${TARGET} -sdk iphonesimulator -arch x86_64 -arch armv7 -arch armv7s -arch arm64 -configuration ${CONFIGURATION}\n\n\nxcodebuild -project ${TARGET}.xcodeproj -scheme ${TARGET} -sdk iphoneos -configuration ${CONFIGURATION}\n\nmkdir -p ${FOLDER}\n\nlipo -create \"${TARGET_BUILD_DIR}/../Debug-iphoneos/${LIBNAME}.a\" \"${TARGET_BUILD_DIR}/../Debug-iphonesimulator/${LIBNAME}.a\" -output \"${FOLDER}/${LIBNAME}.a\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6F2220371B74D1CC002A6C25 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F2220411B74D1CC002A6C25 /* IWOperation.m in Sources */,
+				6F22207A1B74D6E8002A6C25 /* IWGroupOperation.m in Sources */,
+				6F2220821B74D703002A6C25 /* IWOperation.m in Sources */,
+				6F2220621B74D6BC002A6C25 /* IWOperationQueue.m in Sources */,
+				6F2220781B74D6E8002A6C25 /* IWBlockOperation.m in Sources */,
+				6F22207C1B74D6E8002A6C25 /* IWOperationBlockObserver.m in Sources */,
+				6F2220871B74D7F5002A6C25 /* IWExclusivityController.m in Sources */,
+				6F2220691B74D6C5002A6C25 /* IWConditionEvaluator.m in Sources */,
+				6F22207E1B74D6E8002A6C25 /* IWMutalExclusionCondition.m in Sources */,
+				6F22206B1B74D6C5002A6C25 /* IWConditionEvalutation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +495,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F22205D1B74D6A5002A6C25 /* IWTestCondition.m in Sources */,
+				6F2220791B74D6E8002A6C25 /* IWBlockOperation.m in Sources */,
+				6F22207B1B74D6E8002A6C25 /* IWGroupOperation.m in Sources */,
+				6F2220881B74D7F5002A6C25 /* IWExclusivityController.m in Sources */,
+				6F22207D1B74D6E8002A6C25 /* IWOperationBlockObserver.m in Sources */,
+				6F22205B1B74D6A5002A6C25 /* IWOperationTests.m in Sources */,
+				6F2220831B74D703002A6C25 /* IWOperation.m in Sources */,
+				6F7D35FE1B86713200621C68 /* IWGroupOperationTests.m in Sources */,
+				6F22205C1B74D6A5002A6C25 /* IWOperationQueueTests.m in Sources */,
+				6F22206A1B74D6C5002A6C25 /* IWConditionEvaluator.m in Sources */,
+				6F22207F1B74D6E8002A6C25 /* IWMutalExclusionCondition.m in Sources */,
+				6F22205E1B74D6A5002A6C25 /* IWTestObserver.m in Sources */,
+				6F22206C1B74D6C5002A6C25 /* IWConditionEvalutation.m in Sources */,
+				6F2220631B74D6BC002A6C25 /* IWOperationQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F2220891B74D8E9002A6C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2220A81B74D92B002A6C25 /* IWOperation.m in Sources */,
+				6F2220A91B74D92B002A6C25 /* IWOperationBlockObserver.m in Sources */,
+				6F2220AA1B74D92B002A6C25 /* IWBlockOperation.m in Sources */,
+				6F2220AB1B74D92B002A6C25 /* IWGroupOperation.m in Sources */,
+				6F2220AC1B74D92B002A6C25 /* IWMutalExclusionCondition.m in Sources */,
+				6F2220AD1B74D92B002A6C25 /* IWConditionEvaluator.m in Sources */,
+				6F2220AE1B74D92B002A6C25 /* IWConditionEvalutation.m in Sources */,
+				6F2220AF1B74D92B002A6C25 /* IWOperationQueue.m in Sources */,
+				6F2220A71B74D91C002A6C25 /* IWExclusivityController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +620,13 @@
 		6F2220501B74D1CC002A6C25 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv7s,
+					arm64,
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -305,6 +636,13 @@
 		6F2220511B74D1CC002A6C25 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7,
+					armv7s,
+					arm64,
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -343,6 +681,72 @@
 			};
 			name = Release;
 		};
+		6F2220A21B74D8E9002A6C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IWOperation Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = IWOperations;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F2220A31B74D8E9002A6C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "IWOperation Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = IWOperations;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FDD45651B82265100086D25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6FDD45661B82265100086D25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					x86_64,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -362,6 +766,7 @@
 				6F2220511B74D1CC002A6C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6F2220521B74D1CC002A6C25 /* Build configuration list for PBXNativeTarget "IWOperationTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +775,25 @@
 				6F2220541B74D1CC002A6C25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F2220A11B74D8E9002A6C25 /* Build configuration list for PBXNativeTarget "IWOperation Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F2220A21B74D8E9002A6C25 /* Debug */,
+				6F2220A31B74D8E9002A6C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FDD45671B82265100086D25 /* Build configuration list for PBXAggregateTarget "IWOperation Static Lib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FDD45651B82265100086D25 /* Debug */,
+				6FDD45661B82265100086D25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
