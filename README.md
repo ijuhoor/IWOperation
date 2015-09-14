@@ -21,17 +21,17 @@ For more information have a look at the WWDC 2015 talk about it.
 There is 3 usable targets:
 
 1. a static lib
-2. a framework (iOS >= 8)
-3. a fat static lib contained in a 'old' framework
+2. a dynamic framework (iOS >= 8)
+3. a static framework
 
 ## What's left to do
 
-### Better include header
+##### Better include header
 Right now all the used files need to be included. An Umbrella header would be handy
 
-### Unit test. 
+##### Unit test. 
 There is more coverage to do in the unit test 
 
-### Operations cannot generate new operations 
+##### Operations cannot generate new operations 
 In the talk, an operation can create another operation. 
 
