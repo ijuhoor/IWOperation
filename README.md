@@ -1,5 +1,5 @@
 # IWOperation
-Obj-c Wrapper around NSOperation to be able to group them, chain them and make them mutually exclusive (Form WWDC 2015 Advanced NSOperations)
+Obj-c Wrapper around NSOperation to be able to group them, chain them and make them mutually exclusive (From WWDC 2015 Advanced NSOperations)
 
 ## What it is
 IWOperation is the Obj-c implementation of the code presented at WWDC 2015's Advanced NSOperations ([https://developer.apple.com/videos/wwdc/2015/?id=226]). 
