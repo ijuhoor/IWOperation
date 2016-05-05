@@ -57,15 +57,12 @@
     [op1 addObserver:obs];
     [op2 addObserver:obs];
     
-    
     IWGroupOperation *op = [IWGroupOperation new];
     [op setOperations:@[op1, op2]];
     
     IWOperationQueue *queue = [IWOperationQueue new];
     
     [queue addOperation:op];
-    
-    
     
     [self waitForExpectationsWithTimeout:100 handler:^(NSError * _Nullable error) {
         

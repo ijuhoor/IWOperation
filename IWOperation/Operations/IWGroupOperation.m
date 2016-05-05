@@ -13,6 +13,7 @@
 
 @property (nonatomic, strong) IWOperationQueue *internalQueue;
 @property (nonatomic, strong) NSMutableArray   *aggregatedErrors;
+@property (nonatomic, copy)   IWBlockOperation *finishingOperation;
 
 
 @end
@@ -28,6 +29,8 @@
         _internalQueue.qualityOfService = NSQualityOfServiceUserInitiated;
         _internalQueue.suspended = YES;
         _internalQueue.delegate  = self;
+        
+        _finishingOperation = [[IWBlockOperation alloc] initWithWithBlock:nil];
         
         _aggregatedErrors = [NSMutableArray array];
         
@@ -45,6 +48,8 @@
         _internalQueue.suspended = YES;
         _internalQueue.delegate  = self;
         
+        _finishingOperation = [[IWBlockOperation alloc] initWithWithBlock:nil];
+        
         _aggregatedErrors = [NSMutableArray array];
         
         for (IWOperation *operation in operations) {
@@ -61,6 +66,7 @@
     if (self.state == IWOperationStateCreated) {
         for (IWOperation *operation in operations) {
             [self.internalQueue addOperation:operation];
+            [self.finishingOperation addDependency:operation];
         }
     }
 }
@@ -78,6 +84,7 @@
 
 - (void)run
 {
+    [self.internalQueue addOperation:self.finishingOperation];
     self.internalQueue.suspended = NO;
 }
 
@@ -97,7 +104,7 @@
         [self.aggregatedErrors addObjectsFromArray:errors];
     }
     
-    if (queue.operationCount == 0) {
+    if (operation == self.finishingOperation) {
         [self finish:self.aggregatedErrors];
     } else {
         [self operation:operation didFinishWithErrors:errors];
