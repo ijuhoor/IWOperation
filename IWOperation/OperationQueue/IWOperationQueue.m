@@ -19,13 +19,13 @@
 
         IWOperation *op = (IWOperation*)operation;
 
-        //__weak IWOperationQueue *weakSelf = self;
+        __weak IWOperationQueue *weakSelf = self;
         
         IWOperationBlockObserver *observer = [[IWOperationBlockObserver alloc] initWithStartBlock:^(IWOperation *operation) {
-            [self didStartOperation:op];
+            [weakSelf didStartOperation:op];
         }
                                                                                    andFinishBlock:^(IWOperation *operation, NSArray *errors) {
-                                                                                       [self didFinishOperation:op
+                                                                                       [weakSelf didFinishOperation:op
                                                                                                          withErrors:errors];
                                                                                    }];
         
